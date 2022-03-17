@@ -1,6 +1,6 @@
 import * as VueRouter from 'vue-router';
-import MainPage from '../pages/main/Index.vue';
-import EditorPage from '../pages/editor/Index.vue';
+import MainPage from '../pages/Main/Index.vue';
+import EditorPage from '../pages/Editor/Index.vue';
 
 const routes = [
 	{
