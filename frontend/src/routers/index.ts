@@ -1,6 +1,6 @@
-import * as VueRouter from 'vue-router';
-import MainPage from '../pages/Main/Index.vue';
-import EditorPage from '../pages/Editor/Index.vue';
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
+import MainPage from '../pages/MainPage/Index.vue';
+import EditorPage from '../pages/EditorPage/Index.vue';
 
 const routes = [
 	{
@@ -13,9 +13,9 @@ const routes = [
 	}
 ];
 
-const router = VueRouter.createRouter({
-	history: VueRouter.createWebHashHistory(),
-	routes
+const router = createRouter({
+	history: createWebHashHistory(),
+	routes: routes as RouteRecordRaw[]
 })
 
 export default router;
