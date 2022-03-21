@@ -46,15 +46,15 @@ export default {
 
 <style lang="less">
 .user-info {
-  width: 150px;
+  width: 200px;
   .user-avatar {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     overflow: hidden;
     .avatar-img {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
     }
   }
   .user-nickname {
@@ -70,8 +70,8 @@ export default {
       position: relative;
     }
     .wechat {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       border-radius: 10px;
       position: absolute;
       bottom: 20px;
