@@ -1,8 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 import router from './routers';
+import http from '@common/utils/http';
 
 const app = createApp(App);
 
-app.use(router)
-app.mount('#app')
+app.config.globalProperties.$http = http;
+app.use(router);
+app.mount('#app');

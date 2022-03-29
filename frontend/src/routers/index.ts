@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
 import MainPage from '../pages/MainPage/Index.vue';
 import EditorPage from '../pages/EditorPage/Index.vue';
+import DetailPage from '../pages/DetailPage/Index.vue';
 
 const routes = [
 	{
@@ -10,6 +11,10 @@ const routes = [
 	{
 		path: '/editor',
 		component: EditorPage
+	},
+	{
+		path: '/detail',
+		component: DetailPage
 	}
 ];
 

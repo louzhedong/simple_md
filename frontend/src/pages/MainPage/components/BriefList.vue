@@ -6,6 +6,7 @@
 
 <script>
 import BriefItemVue from "./BriefItem.vue";
+
 export default {
   components: {
     BriefItemVue,
@@ -21,6 +22,6 @@ export default {
 <style lang="less">
 .brief-list {
   margin-left: 50px;
-	width: 50%;
+  width: 50%;
 }
 </style>

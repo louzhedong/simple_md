@@ -13,7 +13,8 @@ export default defineConfig({
       '@src': resolveDir('./src'),
       '@assets': resolveDir('./src/assets'),
       '@common': resolveDir('./src/common'),
-      '@components': resolveDir('./src/components')
+      '@components': resolveDir('./src/components'),
+      '@types': resolveDir('./types')
     }
   }
 })
