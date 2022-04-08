@@ -29,3 +29,4 @@ export default {
 	padding: 20px 80px;
 }
 </style>
+
